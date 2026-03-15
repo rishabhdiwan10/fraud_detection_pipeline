@@ -1,6 +1,7 @@
 import streamlit as st
 import requests
 
+st.set_page_config(page_title="FraudShield AI", page_icon="🛡️", layout="centered")
 st.title("🛡️ FraudShield AI")
 
 amount = st.number_input("Transaction Amount ($)", min_value=0.0, value=100.0)
