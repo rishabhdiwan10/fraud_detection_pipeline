@@ -1,0 +1,9 @@
+cat << 'EOF' > .gitignore
+venv/
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+evidently_drift_report.html
+EOF
