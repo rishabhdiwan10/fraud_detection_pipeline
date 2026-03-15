@@ -1,6 +1,6 @@
 # Real-Time Fraud Detection & MLOps Pipeline 🛡️
 
-**Live API Endpoint:** [https://fraud-api-353074659020.us-east1.run.app/predict](https://fraud-api-353074659020.us-east1.run.app/predict)
+**Live API Endpoint:** [https://fraud-api-353074659020.us-east1.run.app/](https://fraud-api-353074659020.us-east1.run.app/)
 
 ---
 
