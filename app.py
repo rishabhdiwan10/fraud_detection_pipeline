@@ -4,6 +4,9 @@ import xgboost as xgb
 import pandas as pd
 
 app = FastAPI(title="Fraud Detection API")
+@app.get("/")
+def read_root():
+    return {"status": "Online", "message": "FraudShield AI API is running. Use /predict for analysis."}
 
 # Load model into memory at startup
 model = xgb.XGBClassifier()
